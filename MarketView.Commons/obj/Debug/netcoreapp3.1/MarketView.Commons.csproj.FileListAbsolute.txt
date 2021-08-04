@@ -1,0 +1,12 @@
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\bin\Debug\netcoreapp3.1\Log4Net.config
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\bin\Debug\netcoreapp3.1\App.config
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\bin\Debug\netcoreapp3.1\MarketView.Commons.dll.config
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\bin\Debug\netcoreapp3.1\MarketView.Commons.deps.json
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\bin\Debug\netcoreapp3.1\MarketView.Commons.dll
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\bin\Debug\netcoreapp3.1\MarketView.Commons.pdb
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\obj\Debug\netcoreapp3.1\MarketView.Commons.csproj.AssemblyReference.cache
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\obj\Debug\netcoreapp3.1\MarketView.Commons.AssemblyInfoInputs.cache
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\obj\Debug\netcoreapp3.1\MarketView.Commons.AssemblyInfo.cs
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\obj\Debug\netcoreapp3.1\MarketView.Commons.csproj.CoreCompileInputs.cache
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\obj\Debug\netcoreapp3.1\MarketView.Commons.dll
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Commons\obj\Debug\netcoreapp3.1\MarketView.Commons.pdb

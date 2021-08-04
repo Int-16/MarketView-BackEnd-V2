@@ -1,0 +1,9 @@
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\bin\Debug\netcoreapp3.1\MarketView.Models.deps.json
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\bin\Debug\netcoreapp3.1\MarketView.Models.dll
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\bin\Debug\netcoreapp3.1\MarketView.Models.pdb
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\obj\Debug\netcoreapp3.1\MarketView.Models.csproj.AssemblyReference.cache
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\obj\Debug\netcoreapp3.1\MarketView.Models.AssemblyInfoInputs.cache
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\obj\Debug\netcoreapp3.1\MarketView.Models.AssemblyInfo.cs
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\obj\Debug\netcoreapp3.1\MarketView.Models.csproj.CoreCompileInputs.cache
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\obj\Debug\netcoreapp3.1\MarketView.Models.dll
+C:\Users\Karthik Prabhu\Desktop\MarketView-Backend-main\MarketView.Models\obj\Debug\netcoreapp3.1\MarketView.Models.pdb
