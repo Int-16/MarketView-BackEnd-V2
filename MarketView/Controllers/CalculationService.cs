@@ -69,5 +69,26 @@ namespace MarketView.Services.Controllers
             return result;
         }
 
+        [HttpGet("api/[controller]/monthlytimeseries")]
+        public FundYearlySeries MonthlyTimeSeriesCalculator([FromQuery] string fundId)
+        {
+            Logging.LogInfo(TypeName, "Control inside CalculationService MonthlyTimeSeriesCalculator");
+
+            FundYearlySeries result;
+            try
+            {
+                result = this.Engine.MonthlyTimeSeries(fundId);
+            }
+            catch (Exception ex)
+            {
+                Logging.LogException(TypeName, ex.Message, ex);
+                ApplicationException appEx = new ApplicationException("System error occurred.");
+                //throw appEx;
+                throw ex;
+            }
+            return result;
+        }
+
+
     }
 }

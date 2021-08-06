@@ -1,0 +1,618 @@
+[Header]
+2021-08-05 10:13:18,634 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:13:23,935 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:13:23,945 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:13:23,951 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 10:13:25,463 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+[Header]
+2021-08-05 10:24:03,272 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:24:08,684 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:24:08,694 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:24:08,699 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 10:24:09,966 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+[Header]
+2021-08-05 10:37:00,025 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:37:02,954 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:37:02,962 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:37:02,968 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 10:37:04,341 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:37:04,402 [8] ERROR (CalculationService:45) LogException 
+ An item with the same key has already been added. Key: shdcbsdkhcb
+
+System.ArgumentException: An item with the same key has already been added. Key: shdcbsdkhcb
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at MarketView.Engine.CalculationEngine.MonthlyTimeSeries(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView.Engine\CalculationEngine.cs:line 917
+   at MarketView.Services.Controllers.CalculationService.MonthlyTimeSeriesCalculator(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView\Controllers\CalculationService.cs:line 80
+[Header]
+2021-08-05 10:37:53,384 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:37:56,692 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:37:56,702 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:37:56,706 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 10:37:58,101 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+[Header]
+2021-08-05 10:39:59,893 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:40:03,559 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:40:03,570 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:40:03,576 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 10:40:04,845 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+[Header]
+2021-08-05 10:46:36,989 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:46:41,275 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:46:41,282 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:46:41,289 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 10:46:42,543 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:46:47,507 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:46:47,512 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:46:47,524 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 10:46:48,422 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+[Header]
+2021-08-05 10:47:16,338 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:47:19,088 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:47:19,096 [5] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:47:19,102 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 10:53:03,059 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:53:21,339 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:53:21,350 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:53:21,355 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 10:54:47,218 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:54:50,266 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:54:50,276 [5] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:54:50,280 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 10:55:29,951 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:55:35,347 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:55:35,360 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:55:35,367 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 10:56:00,944 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:56:03,708 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:56:03,719 [5] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:56:03,723 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 10:56:22,572 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 10:56:28,621 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 10:56:28,648 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 10:56:28,653 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 11:02:11,100 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:02:13,765 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 11:02:13,772 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 11:02:13,777 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 11:05:08,338 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:05:14,580 [7] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 11:05:14,596 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 11:05:14,601 [7] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 11:19:05,035 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:19:15,220 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 11:19:15,229 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 11:19:15,233 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 11:20:30,551 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+[Header]
+2021-08-05 11:21:01,019 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:21:04,203 [6] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 11:21:04,211 [6] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthlyTimeseries
+
+2021-08-05 11:21:04,215 [6] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 11:23:38,071 [6] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthlyTimeseries
+
+[Header]
+2021-08-05 11:28:51,575 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:28:53,747 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+[Header]
+2021-08-05 11:29:22,138 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:29:26,751 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+[Header]
+2021-08-05 11:56:46,507 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:56:54,039 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 11:56:54,065 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 11:57:02,059 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 11:57:02,060 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 11:57:57,625 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 11:58:00,121 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 11:58:00,131 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:04:26,990 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:04:49,230 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:04:49,241 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:06:22,286 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:06:25,388 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:06:25,400 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 12:06:33,256 [8] ERROR (CalculationService:45) LogException 
+ Year, Month, and Day parameters describe an un-representable DateTime.
+
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day)
+   at MarketView.Engine.CalculationEngine.MonthlyTimeSeries(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView.Engine\CalculationEngine.cs:line 893
+   at MarketView.Services.Controllers.CalculationService.MonthlyTimeSeriesCalculator(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView\Controllers\CalculationService.cs:line 80
+[Header]
+2021-08-05 12:07:02,001 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:07:04,849 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:07:04,862 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 12:07:40,186 [8] ERROR (CalculationService:45) LogException 
+ Year, Month, and Day parameters describe an un-representable DateTime.
+
+System.ArgumentOutOfRangeException: Year, Month, and Day parameters describe an un-representable DateTime.
+   at System.DateTime.DateToTicks(Int32 year, Int32 month, Int32 day)
+   at System.DateTime..ctor(Int32 year, Int32 month, Int32 day)
+   at MarketView.Engine.CalculationEngine.MonthlyTimeSeries(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView.Engine\CalculationEngine.cs:line 893
+   at MarketView.Services.Controllers.CalculationService.MonthlyTimeSeriesCalculator(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView\Controllers\CalculationService.cs:line 80
+[Header]
+2021-08-05 12:10:18,789 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:10:21,765 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:10:21,774 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:13:23,162 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:13:26,036 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:13:26,053 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:15:19,563 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+[Header]
+2021-08-05 12:15:40,325 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:15:43,096 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:15:43,110 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:18:36,514 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:18:39,083 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:18:39,092 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:22:14,895 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:22:22,218 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:22:22,230 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 12:22:43,608 [6] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:22:43,610 [6] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 12:24:05,672 [20] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:24:05,675 [20] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:30:41,966 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:30:44,231 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:30:44,247 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:31:06,286 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:31:14,632 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:31:14,644 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 12:32:18,525 [18] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:32:18,526 [18] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:34:48,667 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:35:08,079 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:35:08,098 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:46:35,332 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:46:38,275 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:46:38,289 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:49:11,586 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:49:14,495 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:49:14,507 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 12:50:32,997 [8] ERROR (CalculationService:45) LogException 
+ An item with the same key has already been added. Key: Apr
+
+System.ArgumentException: An item with the same key has already been added. Key: Apr
+   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at MarketView.Engine.CalculationEngine.MonthlyTimeSeries(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView.Engine\CalculationEngine.cs:line 929
+   at MarketView.Services.Controllers.CalculationService.MonthlyTimeSeriesCalculator(String fundId) in C:\Users\santhoshmathavan.k\Source\Repos\MarketView-BackEnd-V2\MarketView\Controllers\CalculationService.cs:line 80
+[Header]
+2021-08-05 12:51:03,692 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:51:07,089 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:51:07,107 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:52:32,326 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:52:36,357 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:52:36,375 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:55:28,892 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:56:39,844 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:56:39,860 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 12:59:01,146 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 12:59:03,611 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 12:59:03,625 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 13:02:28,718 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 13:02:47,674 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:02:47,687 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 13:07:23,841 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 13:07:27,491 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:07:27,501 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:07:51,137 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:07:51,145 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:08:10,660 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:08:10,662 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:09:01,139 [12] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:09:01,141 [12] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:32:58,935 [109] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:32:58,936 [109] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 13:33:15,113 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 13:33:17,776 [6] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:33:17,795 [6] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 13:43:52,940 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 13:44:01,036 [9] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:44:01,067 [9] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:44:04,556 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:44:04,557 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:44:23,504 [9] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:44:23,505 [9] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:44:53,021 [9] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:44:53,023 [9] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:45:39,240 [9] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:45:39,241 [9] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 13:46:04,023 [9] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 13:46:04,025 [9] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-05 14:36:28,852 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-05 14:36:55,514 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 14:36:55,529 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-05 14:37:10,233 [14] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-05 14:37:10,234 [14] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+

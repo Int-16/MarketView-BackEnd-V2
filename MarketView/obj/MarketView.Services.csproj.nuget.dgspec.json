@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView\\MarketView.Services.csproj": {}
+    "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView\\MarketView.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Commons\\MarketView.Commons.csproj": {
+    "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Commons\\MarketView.Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Commons\\MarketView.Commons.csproj",
+        "projectUniqueName": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Commons\\MarketView.Commons.csproj",
         "projectName": "MarketView.Commons",
-        "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Commons\\MarketView.Commons.csproj",
-        "packagesPath": "C:\\Users\\Karthik Prabhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Commons\\obj\\",
+        "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Commons\\MarketView.Commons.csproj",
+        "packagesPath": "C:\\Users\\santhoshmathavan.k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Commons\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Karthik Prabhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santhoshmathavan.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "http://packages.nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -76,39 +76,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Data\\MarketView.Data.csproj": {
+    "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Data\\MarketView.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Data\\MarketView.Data.csproj",
+        "projectUniqueName": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Data\\MarketView.Data.csproj",
         "projectName": "MarketView.Data",
-        "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Data\\MarketView.Data.csproj",
-        "packagesPath": "C:\\Users\\Karthik Prabhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Data\\obj\\",
+        "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Data\\MarketView.Data.csproj",
+        "packagesPath": "C:\\Users\\santhoshmathavan.k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Karthik Prabhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santhoshmathavan.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "http://packages.nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Commons\\MarketView.Commons.csproj": {
-                "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Commons\\MarketView.Commons.csproj"
+              "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Commons\\MarketView.Commons.csproj": {
+                "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Commons\\MarketView.Commons.csproj"
               },
-              "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj": {
-                "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj"
+              "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj": {
+                "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj"
               }
             }
           }
@@ -175,39 +175,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Engine\\MarketView.Engine.csproj": {
+    "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Engine\\MarketView.Engine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Engine\\MarketView.Engine.csproj",
+        "projectUniqueName": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Engine\\MarketView.Engine.csproj",
         "projectName": "MarketView.Engine",
-        "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Engine\\MarketView.Engine.csproj",
-        "packagesPath": "C:\\Users\\Karthik Prabhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Engine\\obj\\",
+        "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Engine\\MarketView.Engine.csproj",
+        "packagesPath": "C:\\Users\\santhoshmathavan.k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Engine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Karthik Prabhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santhoshmathavan.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "http://packages.nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Data\\MarketView.Data.csproj": {
-                "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Data\\MarketView.Data.csproj"
+              "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Data\\MarketView.Data.csproj": {
+                "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Data\\MarketView.Data.csproj"
               },
-              "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj": {
-                "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj"
+              "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj": {
+                "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj"
               }
             }
           }
@@ -254,29 +254,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj": {
+    "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj",
+        "projectUniqueName": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj",
         "projectName": "MarketView.Models",
-        "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj",
-        "packagesPath": "C:\\Users\\Karthik Prabhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\obj\\",
+        "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj",
+        "packagesPath": "C:\\Users\\santhoshmathavan.k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Karthik Prabhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santhoshmathavan.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "http://packages.nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -338,39 +338,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView\\MarketView.Services.csproj": {
+    "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView\\MarketView.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView\\MarketView.Services.csproj",
+        "projectUniqueName": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView\\MarketView.Services.csproj",
         "projectName": "MarketView.Services",
-        "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView\\MarketView.Services.csproj",
-        "packagesPath": "C:\\Users\\Karthik Prabhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView\\obj\\",
+        "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView\\MarketView.Services.csproj",
+        "packagesPath": "C:\\Users\\santhoshmathavan.k\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Karthik Prabhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\santhoshmathavan.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "http://packages.nuget.org": {},
-          "https://www.nuget.org/api/v2/": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Engine\\MarketView.Engine.csproj": {
-                "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Engine\\MarketView.Engine.csproj"
+              "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Engine\\MarketView.Engine.csproj": {
+                "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Engine\\MarketView.Engine.csproj"
               },
-              "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj": {
-                "projectPath": "C:\\Users\\Karthik Prabhu\\Desktop\\MarketView-Backend-main\\MarketView.Models\\MarketView.Models.csproj"
+              "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj": {
+                "projectPath": "C:\\Users\\santhoshmathavan.k\\Source\\Repos\\MarketView-BackEnd-V2\\MarketView.Models\\MarketView.Models.csproj"
               }
             }
           }
@@ -440,7 +440,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

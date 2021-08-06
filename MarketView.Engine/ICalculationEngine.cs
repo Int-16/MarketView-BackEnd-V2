@@ -9,6 +9,7 @@ namespace MarketView.Engine
     {
         List<MutualFund> GetFundById(string fundId);
         FundTimeSeries ReturnsCalculator(string fundId, List<string> statName);
+        FundYearlySeries MonthlyTimeSeries(string fundId);
 
     }
 }

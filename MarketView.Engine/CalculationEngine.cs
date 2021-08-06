@@ -859,6 +859,85 @@ namespace MarketView.Engine
             return dataList;
         }
 
+        //Monthly Time Series
+        public FundYearlySeries MonthlyTimeSeries(string fundId)
+        {
+            FundYearlySeries list = new FundYearlySeries();
+            FundTimeSeries dataList = this.MutualFundLibrary.ReturnsCalculator(fundId);
+            var dateKey = dataList.TimeSeries.Keys;
+
+            DateTime firstDate = DateTime.Parse(dateKey.FirstOrDefault().ToString());
+            DateTime lastDate = DateTime.Parse(dateKey.LastOrDefault().ToString());
+            var yearsDiff = firstDate.Year - lastDate.Year;
+
+            //Difference between the FirstDate and LastDate in Years
+            for (int i = 0; i < yearsDiff; i++)
+            {
+                YearlyStat stat = new YearlyStat();
+                DateTime yearFirstDate = lastDate.AddYears(i);
+                stat.YearStats.Add("Year", yearFirstDate.Year);
+                if (i > 0)
+                {
+                    yearFirstDate = new DateTime(yearFirstDate.Year, 1, 1);
+                }
+                DateTime yearLastDate = new DateTime(yearFirstDate.Year, 12, 31);
+                
+                //Difference between the YearFirst and YearLast in Months
+                var monthsDiff = ((yearLastDate.Year - yearFirstDate.Year) * 12) + yearLastDate.Month - yearFirstDate.Month;
+                
+                for (int j = 0; j <= monthsDiff; j++)
+                {
+                    DateTime monthFirst = lastDate;
+                    if (i==0 && j==0)
+                    {
+                        monthFirst = lastDate;
+                    }
+                    if (j >= 0)
+                    {
+                        monthFirst = new DateTime(yearFirstDate.Year, yearFirstDate.Month, 1);
+                        monthFirst = monthFirst.AddMonths(j);
+                    }
+
+                    DateTime monthLast = new DateTime(monthFirst.Year, monthFirst.Month, DateTime.DaysInMonth(monthFirst.Year, monthFirst.Month));
+                    
+                    //NAV CALCULATIONS
+                    int count = 0;
+                    while (dataList.TimeSeries.ContainsKey(FormatToString(monthFirst)) == false && count <= 2)
+                    {
+                        monthFirst = monthFirst.AddDays(1);
+                        count++;
+                    }
+
+                    count = 0;
+                    while (dataList.TimeSeries.ContainsKey(FormatToString(monthLast)) == false && count <= 2)
+                    {
+                        monthLast = monthLast.AddDays(-1);
+                        count++;
+                    }
+
+                    if (dataList.TimeSeries.ContainsKey(FormatToString(monthFirst)) && dataList.TimeSeries.ContainsKey(FormatToString(monthLast)))
+                    {
+                        var presentNav = (dataList.TimeSeries[FormatToString(monthLast)].Stats[Constants.Nav]);
+                        var previousNav = (dataList.TimeSeries[FormatToString(monthFirst)].Stats[Constants.Nav]);
+                        var returnNav = ((presentNav - previousNav) / previousNav) * 100;
+
+                        if (Double.IsInfinity(returnNav))
+                        {
+                            returnNav = 0.00;
+                        }
+                        stat.YearStats.Add(monthFirst.ToString("MMM"),returnNav);
+                    }
+                    else
+                    {
+                        stat.YearStats.Add(monthFirst.ToString("MMM"), 0.000);
+                    }
+                }
+                list.TimeSeries.Add(yearFirstDate.ToString(), stat);
+            }
+            list.FundName = dataList.FundName;
+            return list;
+        }
+
         /// <summary>
         /// Depending upon the statName specific SwitchCase gets executed in a Loop
         /// </summary>
