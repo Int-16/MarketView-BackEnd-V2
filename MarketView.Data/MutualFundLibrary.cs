@@ -110,6 +110,9 @@ namespace MarketView.Data
                 fundTimeSeries = new FundTimeSeries()
                 {
                     FundName = item.MetaData.FundHouse,
+                    SchemeType = item.MetaData.SchemeType,
+                    SchemeCategory = item.MetaData.SchemeCategory,
+                    SchemeName = item.MetaData.SchemeName,
                     TimeSeries = new Dictionary<string, StatDictionary>()
                 };
                 foreach (var i in item.TimeSeries)

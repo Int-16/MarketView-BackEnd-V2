@@ -12,6 +12,12 @@ namespace MarketView.Models
     {
 		public String FundName { get; set; }
 
+		public String SchemeType { get; set; }
+
+		public String SchemeCategory { get; set; }
+
+		public String SchemeName { get; set; }
+
 		[JsonIgnore]
 		public Dictionary<string, StatDictionary> TimeSeries { get; set; }
 
