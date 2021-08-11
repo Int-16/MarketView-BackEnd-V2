@@ -283,7 +283,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine WeekToDate");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -335,7 +334,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine MonthToDate");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -343,8 +341,7 @@ namespace MarketView.Engine
                 {
                     continue;
                 }
-
-                DateTime subtractedDate = SubtractDays(presentDate, -22);
+                DateTime subtractedDate = new DateTime(FormatToDate(presentDate).Year, FormatToDate(presentDate).Month, 1);
 
                 var previousDate = FormatToString(subtractedDate);
 
@@ -376,7 +373,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine YearToDate");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -871,7 +867,7 @@ namespace MarketView.Engine
             var yearsDiff = firstDate.Year - lastDate.Year;
 
             //Difference between the FirstDate and LastDate in Years
-            for (int i = 0; i < yearsDiff; i++)
+            for (int i = 0; i <= yearsDiff; i++)
             {
                 YearlyStat stat = new YearlyStat();
                 DateTime yearFirstDate = lastDate.AddYears(i);

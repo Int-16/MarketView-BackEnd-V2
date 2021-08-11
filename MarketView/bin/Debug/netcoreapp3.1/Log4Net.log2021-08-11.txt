@@ -1,0 +1,657 @@
+[Header]
+2021-08-11 10:34:19,144 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 10:36:43,898 [12] INFO  (DataService:34) LogInfo 
+ Control inside DataService GetAllMutualFundData
+
+2021-08-11 10:36:43,948 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 10:36:43,948 [14] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:36:43,948 [13] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:36:44,073 [14] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:36:43,998 [17] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:36:44,070 [12] INFO  (DataEngine:34) LogInfo 
+ Control inside DataEngine GetAllMutualFundData
+
+2021-08-11 10:36:43,948 [15] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:36:44,079 [15] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:36:44,078 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:36:44,080 [17] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:36:44,079 [14] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:36:44,075 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:36:44,080 [12] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary GetAllMutualFundData
+
+2021-08-11 10:36:44,080 [15] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:36:44,079 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:36:44,083 [13] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:36:45,937 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,937 [15] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:36:45,939 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,941 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,942 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,943 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,943 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,944 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,945 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:36:45,954 [15] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:36:45,955 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,957 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,958 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,958 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,959 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,960 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,960 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,961 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,962 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:36:45,964 [13] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,781 [17] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:03,781 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:03,783 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:03,781 [15] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 10:37:03,783 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:03,784 [17] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:03,784 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:03,784 [15] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:03,781 [12] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:03,786 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:03,787 [12] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:03,793 [14] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:03,794 [14] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:03,794 [14] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:03,943 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,944 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,945 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,946 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,946 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,947 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,947 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,948 [12] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:37:03,952 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,953 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,954 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,955 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,956 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,956 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,957 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,958 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,975 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:37:03,979 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:03,981 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:37:04,037 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:37:04,135 [18] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 10:37:04,135 [18] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:09,417 [24] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:09,418 [24] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:09,419 [24] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:11,507 [24] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:11,509 [24] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:11,510 [24] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:15,958 [24] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:15,959 [24] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:15,960 [24] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:37:19,191 [24] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:37:19,192 [24] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:37:19,193 [24] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:38:13,265 [26] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:38:13,266 [26] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:38:13,267 [26] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:38:14,800 [26] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:38:14,818 [26] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:38:14,819 [26] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:38:16,365 [17] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:38:16,384 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:38:16,385 [17] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-11 10:52:39,577 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 10:52:54,167 [10] INFO  (DataService:34) LogInfo 
+ Control inside DataService GetAllMutualFundData
+
+2021-08-11 10:52:54,183 [10] INFO  (DataEngine:34) LogInfo 
+ Control inside DataEngine GetAllMutualFundData
+
+2021-08-11 10:52:54,187 [7] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:52:54,187 [4] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:52:54,187 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:52:54,187 [9] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 10:52:54,188 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary GetAllMutualFundData
+
+2021-08-11 10:52:54,189 [5] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:52:54,190 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:52:54,190 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:52:54,195 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:52:54,195 [7] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:52:54,196 [9] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:52:54,196 [4] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:52:54,560 [15] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:52:54,561 [15] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:52:54,561 [15] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:52:56,916 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,916 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,920 [5] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:52:56,920 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,920 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,923 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,923 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,924 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,924 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,925 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,926 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,926 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,927 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,928 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,928 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,928 [5] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:52:56,929 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,929 [7] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:52:56,931 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:52:56,933 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:08,954 [4] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:53:08,954 [9] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:53:08,954 [16] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 10:53:08,954 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:53:08,954 [15] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:53:08,957 [9] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:53:08,959 [9] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:53:08,958 [16] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:53:08,958 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:53:08,966 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:53:08,957 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:53:08,967 [4] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:53:08,959 [15] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:53:08,977 [15] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:53:08,992 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,993 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,994 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,994 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,995 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,996 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,996 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,997 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine ThreeMonthReturns
+
+2021-08-11 10:53:08,998 [15] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:53:09,010 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,011 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,014 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,015 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,018 [15] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine HistoricalCumulativeReturn
+
+2021-08-11 10:53:09,090 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,092 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,093 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,093 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,094 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,095 [4] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine AnnualReturns
+
+2021-08-11 10:53:09,652 [26] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 10:53:09,656 [26] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 10:53:46,799 [26] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 10:53:46,800 [26] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 10:53:46,803 [26] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-11 11:33:13,456 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 11:33:57,184 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 11:33:57,196 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 11:33:57,204 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 11:33:57,907 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine LastWeekReturn
+
+[Header]
+2021-08-11 11:44:15,079 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 11:44:41,980 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 11:44:41,990 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 11:44:41,996 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 11:44:42,795 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine HistoricalCumulativeReturn
+
+[Header]
+2021-08-11 12:00:07,270 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 12:01:10,584 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 12:01:10,597 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:03:25,639 [20] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 12:03:25,640 [20] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:03:31,942 [13] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 12:03:31,943 [13] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:03:47,424 [20] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 12:03:47,426 [20] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:05:47,173 [15] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 12:05:47,174 [15] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-11 12:10:22,777 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 12:10:30,657 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 12:10:30,678 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:10:57,468 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 12:10:57,470 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 12:10:57,471 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:10:57,497 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthToDate
+
+2021-08-11 12:11:26,403 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthToDate
+
+2021-08-11 12:12:27,582 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 12:12:27,584 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 12:12:27,584 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:13:10,834 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 12:13:10,836 [8] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 12:13:10,838 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:13:33,107 [17] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 12:13:33,109 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 12:13:33,110 [17] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:13:33,118 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthToDate
+
+2021-08-11 12:13:33,121 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthToDate
+
+2021-08-11 12:13:51,906 [17] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 12:13:51,908 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 12:13:51,909 [17] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 12:13:51,941 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthToDate
+
+2021-08-11 12:13:51,959 [17] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthToDate
+
