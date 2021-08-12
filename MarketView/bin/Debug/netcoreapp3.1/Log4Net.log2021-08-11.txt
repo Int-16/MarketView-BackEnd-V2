@@ -655,3 +655,58 @@
 2021-08-11 12:13:51,959 [17] INFO  (CalculationEngine:34) LogInfo 
  Control Ends inside CalculationEngine MonthToDate
 
+[Header]
+2021-08-11 17:57:51,118 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 17:58:27,238 [10] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-11 17:58:27,248 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-11 17:58:27,255 [10] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 17:58:27,714 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine OneDayReturn
+
+2021-08-11 17:58:27,741 [10] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine OneDayReturn
+
+[Header]
+2021-08-11 18:32:57,829 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 18:33:05,138 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 18:33:05,155 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-11 18:33:46,334 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 18:33:49,469 [5] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 18:33:49,485 [5] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+[Header]
+2021-08-11 18:34:44,786 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-11 18:34:51,307 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 18:34:51,327 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-11 18:35:39,867 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-11 18:35:39,869 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+

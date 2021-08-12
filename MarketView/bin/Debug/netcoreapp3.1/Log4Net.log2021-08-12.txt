@@ -1,0 +1,61 @@
+[Header]
+2021-08-12 11:11:19,599 [1] INFO  (Main:34) LogInfo 
+ Application Started
+
+2021-08-12 11:11:25,258 [8] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService MonthlyTimeSeriesCalculator
+
+2021-08-12 11:11:25,273 [8] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-12 11:11:30,534 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-12 11:11:30,537 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-12 11:11:30,538 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-12 11:11:30,622 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine MonthToDate
+
+2021-08-12 11:11:30,634 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine MonthToDate
+
+2021-08-12 11:11:38,104 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-12 11:11:38,107 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-12 11:11:38,107 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-12 11:11:38,172 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine OneDayReturn
+
+2021-08-12 11:11:38,197 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine OneDayReturn
+
+2021-08-12 11:11:48,389 [11] INFO  (CalculationService:34) LogInfo 
+ Control inside CalculationService ReturnsCalculator
+
+2021-08-12 11:11:48,391 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine ReturnsCalculator
+
+2021-08-12 11:11:48,392 [11] INFO  (MutualFundLibrary:34) LogInfo 
+ Control inside MutualFundLibrary ReturnCalculator
+
+2021-08-12 11:11:48,431 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine OneDayReturn
+
+2021-08-12 11:11:48,458 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine OneDayReturn
+
+2021-08-12 11:11:48,460 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control inside CalculationEngine OneWeekReturn
+
+2021-08-12 11:11:48,485 [11] INFO  (CalculationEngine:34) LogInfo 
+ Control Ends inside CalculationEngine OneWeekReturn
+

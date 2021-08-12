@@ -34,22 +34,6 @@ namespace MarketView.Data
             }
         }
 
-        /*public static DateTime IsDateTime(string txtDate)
-        {
-            DateTime tempDate;
-
-            if (DateTime.TryParseExact(txtDate, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out tempDate))
-            {
-                System.Diagnostics.Debug.WriteLine("Here");
-                return tempDate;
-            }
-            else
-            {
-                System.Diagnostics.Debug.WriteLine("Here   dfvdf");
-                return tempDate;
-            }
-        }*/
-
         public MutualFundLibrary(IMongoHandler dataHandler)
         {
             this.MongoHandler = dataHandler;
@@ -80,7 +64,6 @@ namespace MarketView.Data
             Logging.LogInfo(TypeName, "Control inside MutualFundLibrary GetFundById");
 
             var builder = Builders<MutualFund>.Filter;
-
             var filter = builder.Where(x => x.Id == fundId);
             var cursor = MutualFundCollection.Find(filter).Sort(Builders<MutualFund>.Sort.Descending("TimeSeries"));
             return cursor.ToList();
@@ -97,12 +80,10 @@ namespace MarketView.Data
 
             var builder = Builders<MutualFund>.Filter;
             var filter = builder.Where(x => x.Id == fundId);
-
             var cursor = MutualFundCollection.Find(filter).ToListAsync();            
             var dataList = cursor.Result;
 
             FundTimeSeries resultList =  new FundTimeSeries();
-
             var fundTimeSeries = new FundTimeSeries();
 
             foreach (var item in dataList)

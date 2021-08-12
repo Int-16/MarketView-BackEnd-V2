@@ -66,7 +66,6 @@ namespace MarketView.Engine
         public List<MutualFund> GetFundById(string fundId)
         {
             Logging.LogInfo(TypeName, "Control inside CalculationEngine GetFundById");
-
             List<MutualFund> resultList = this.MutualFundLibrary.GetFundById(fundId);
             return resultList;
         }
@@ -77,7 +76,6 @@ namespace MarketView.Engine
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
-
                 var presentDate = FormatToString(initDate);
 
                 if (IsWeekend(presentDate))
@@ -86,23 +84,19 @@ namespace MarketView.Engine
                 }
 
                 DateTime subtractedDate = SubtractDays(presentDate, -1);
-
                 var previousDate = FormatToString(subtractedDate);
 
                 if (dataList.TimeSeries.ContainsKey(previousDate))
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav) || Double.IsNaN(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[0], returnNav);
-
                 }
                 else
                 {
@@ -119,8 +113,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine OneWeekReturn");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
-
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -130,21 +122,18 @@ namespace MarketView.Engine
                 }
 
                 DateTime subtractedDate = SubtractDays(presentDate, -5);
-
                 var previousDate = FormatToString(subtractedDate);
 
                 if (dataList.TimeSeries.ContainsKey(previousDate))
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[1], returnNav);
                 }
                 else
@@ -161,7 +150,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine OneMonthReturn");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -171,21 +159,18 @@ namespace MarketView.Engine
                 }
 
                 DateTime subtractedDate = SubtractDays(presentDate, -22);
-
                 var previousDate = FormatToString(subtractedDate);
 
                 if (dataList.TimeSeries.ContainsKey(previousDate))
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[2], returnNav);
                 }
                 else
@@ -202,7 +187,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine OneQuarterReturn");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -210,7 +194,6 @@ namespace MarketView.Engine
                 {
                     continue;
                 }
-
                 DateTime subtractedDate = SubtractDays(presentDate, -66);
                 var previousDate = FormatToString(subtractedDate);
 
@@ -218,14 +201,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[3], returnNav);
                 }
                 else
@@ -242,8 +223,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine OneYearReturn");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
-
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -259,14 +238,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[4], returnNav);
                 }
                 else
@@ -310,14 +287,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[5], returnNav);
                 }
                 else
@@ -342,21 +317,18 @@ namespace MarketView.Engine
                     continue;
                 }
                 DateTime subtractedDate = new DateTime(FormatToDate(presentDate).Year, FormatToDate(presentDate).Month, 1);
-
                 var previousDate = FormatToString(subtractedDate);
 
                 if (dataList.TimeSeries.ContainsKey(previousDate))
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[6], returnNav);
                 }
                 else
@@ -396,14 +368,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[7], returnNav);
                 }
                 else
@@ -444,14 +414,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[8], returnNav);
                 }
                 else
@@ -468,8 +436,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine LastWeekReturn");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
-
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -502,14 +468,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[FormatToString(lDate)].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[FormatToString(fDate)].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[9], returnNav);
                 }
                 else
@@ -526,8 +490,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine LastMonthReturn");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
-
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -559,14 +521,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[FormatToString(lDate)].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[FormatToString(fDate)].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[10], returnNav);
                 }
                 else
@@ -583,7 +543,6 @@ namespace MarketView.Engine
             Logging.LogInfo(TypeName, "Control inside CalculationEngine LastYearReturn");
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
-                //DateTime presentDate = DateTime.Parse(dateKey.ToString());
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
                 var presentDate = FormatToString(initDate);
 
@@ -614,14 +573,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[FormatToString(lDate)].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[FormatToString(fDate)].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[11], returnNav);
                 }
                 else
@@ -669,14 +626,12 @@ namespace MarketView.Engine
                 {
                     var presentNav = (dataList.TimeSeries[FormatToString(lDate)].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[FormatToString(fDate)].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                     if (Double.IsInfinity(returnNav))
                     {
                         returnNav = 0.00;
                     }
-
                     dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[12], returnNav);
                 }
                 else
@@ -688,17 +643,16 @@ namespace MarketView.Engine
             return dataList;
         }
 
-        public FundTimeSeries HistCumReturn(FundTimeSeries dataList)
+        public FundTimeSeries HistoricalCumulativeReturn(FundTimeSeries dataList)
         {
             Logging.LogInfo(TypeName, "Control inside CalculationEngine HistoricalCumulativeReturn");
 
-            var cumReturn=0.000; 
-            var prev=1000.00;
+            var cummulativeReturn=0.000; 
+            var principalValue=1000.00;
 
             foreach (var dateKey in dataList.TimeSeries.Keys)
             {
                 DateTime initDate = DateTime.Parse(dateKey.ToString());
-
                 var presentDate = FormatToString(initDate);
 
                 if (IsWeekend(presentDate))
@@ -707,14 +661,12 @@ namespace MarketView.Engine
                 }
 
                 DateTime subtractedDate = SubtractDays(presentDate, -1);
-
                 var previousDate = FormatToString(subtractedDate);
 
                 if (dataList.TimeSeries.ContainsKey(previousDate))
                 {
                     var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                     var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                     var returnNav = ((presentNav / previousNav) - 1);
 
                     if (Double.IsInfinity(returnNav))
@@ -722,15 +674,13 @@ namespace MarketView.Engine
                         returnNav = 0.00;
                     }
 
-                    cumReturn = prev * (1 + returnNav);
-
-                    dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[13], cumReturn);
-
-                    prev = cumReturn;
+                    cummulativeReturn = principalValue * (1 + returnNav);
+                    dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[13], cummulativeReturn);
+                    principalValue = cummulativeReturn;
                 }
                 else
                 {
-                    dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[13], cumReturn);
+                    dataList.TimeSeries[presentDate].Stats.Add(Constants.statsSupported[13], cummulativeReturn);
                 }
             }
             Logging.LogInfo(TypeName, "Control Ends inside CalculationEngine HistoricalCumulativeReturn");
@@ -740,7 +690,7 @@ namespace MarketView.Engine
         public double AnnualReturnCalculator(FundTimeSeries dataList,string presentDate,int totalDays,int numDays)
         {
             Logging.LogInfo(TypeName, "Control inside CalculationEngine AnnualReturns");
-            var finalValue = 0.00;
+            var annualReturn = 0.00;
 
             DateTime subtractedDate = SubtractDays(presentDate, -numDays);
 
@@ -757,7 +707,6 @@ namespace MarketView.Engine
             {
                 var presentNav = (dataList.TimeSeries[presentDate].Stats[Constants.Nav]);
                 var previousNav = (dataList.TimeSeries[previousDate].Stats[Constants.Nav]);
-
                 var returnNav = (((presentNav / previousNav) - 1)) * 100;
 
                 if (Double.IsInfinity(returnNav))
@@ -765,16 +714,16 @@ namespace MarketView.Engine
                     returnNav = 0;
                 }
 
-                finalValue = (double)Math.Pow((1 + returnNav), (totalDays / numDays)) - 1;
+                annualReturn = (double)Math.Pow((1 + returnNav), (totalDays / numDays)) - 1;
             }
             Logging.LogInfo(TypeName, "Control Ends inside CalculationEngine AnnualReturns");
-            return finalValue;
+            return annualReturn;
         }
 
         public double ThreeMonthReturnCalculator(FundTimeSeries dataList,string presentDate,int numMonth)
         {
             Logging.LogInfo(TypeName, "Control inside CalculationEngine ThreeMonthReturns");
-            var returnNav = 0.0;
+            var threeMonthsReturn = 0.0;
 
             //fDate-FirstDate(First Date of the LastMonth) //lDate-LastDate(Last Date of the LastMonth)
             var month = new DateTime(FormatToDate(presentDate).Year, FormatToDate(presentDate).Month, numMonth);
@@ -799,15 +748,15 @@ namespace MarketView.Engine
             {
                 var presentNav = (dataList.TimeSeries[FormatToString(lDate)].Stats[Constants.Nav]);
                 var previousNav = (dataList.TimeSeries[FormatToString(fDate)].Stats[Constants.Nav]);
-                returnNav = ((presentNav - previousNav) / previousNav) * 100;
+                threeMonthsReturn = ((presentNav - previousNav) / previousNav) * 100;
 
-                if (Double.IsInfinity(returnNav))
+                if (Double.IsInfinity(threeMonthsReturn))
                 {
-                    returnNav = 0.00;
+                    threeMonthsReturn = 0.00;
                 }
             }
             Logging.LogInfo(TypeName, "Control Ends inside CalculationEngine ThreeMonthReturns");
-            return returnNav;
+            return threeMonthsReturn;
         }
 
         public FundTimeSeries AnnualReturn(FundTimeSeries dataList)
@@ -838,10 +787,9 @@ namespace MarketView.Engine
         public FundTimeSeries LastThreeMonthsReturn(FundTimeSeries dataList)
         {
             Logging.LogInfo(TypeName, "Control inside CalculationEngine ThreeMonthReturns");
+            
             var dateKey = dataList.TimeSeries.Keys;
-
             DateTime initDate = DateTime.Parse(dateKey.FirstOrDefault().ToString());
-
             var presentDate = FormatToString(initDate);
 
             var oneMonth   = ThreeMonthReturnCalculator(dataList,presentDate,1);
@@ -851,6 +799,7 @@ namespace MarketView.Engine
             dataList.TimeSeries[presentDate].Stats.Add(initDate.AddMonths(-1).ToString("MMM"), oneMonth);
             dataList.TimeSeries[presentDate].Stats.Add(initDate.AddMonths(-2).ToString("MMM"), twoMonth);
             dataList.TimeSeries[presentDate].Stats.Add(initDate.AddMonths(-3).ToString("MMM"), threeMonth);
+            
             Logging.LogInfo(TypeName, "Control Ends inside CalculationEngine ThreeMonthReturns");
             return dataList;
         }
@@ -862,17 +811,17 @@ namespace MarketView.Engine
             FundTimeSeries dataList = this.MutualFundLibrary.ReturnsCalculator(fundId);
             var dateKey = dataList.TimeSeries.Keys;
 
-            DateTime firstDate = DateTime.Parse(dateKey.FirstOrDefault().ToString());
-            DateTime lastDate = DateTime.Parse(dateKey.LastOrDefault().ToString());
-            var yearsDiff = firstDate.Year - lastDate.Year;
-
+            DateTime firstDate = DateTime.Parse(dateKey.LastOrDefault().ToString());
+            DateTime lastDate = DateTime.Parse(dateKey.FirstOrDefault().ToString()); 
             //Difference between the FirstDate and LastDate in Years
-            for (int i = 0; i <= yearsDiff; i++)
+            var yearsDiff = lastDate.Year - firstDate.Year;
+
+            for (int yearCount = 0; yearCount <= yearsDiff; yearCount++)
             {
                 YearlyStat stat = new YearlyStat();
-                DateTime yearFirstDate = lastDate.AddYears(i);
+                DateTime yearFirstDate = firstDate.AddYears(yearCount);
                 stat.YearStats.Add("Year", yearFirstDate.Year);
-                if (i > 0)
+                if (yearCount > 0)
                 {
                     yearFirstDate = new DateTime(yearFirstDate.Year, 1, 1);
                 }
@@ -881,51 +830,51 @@ namespace MarketView.Engine
                 //Difference between the YearFirst and YearLast in Months
                 var monthsDiff = ((yearLastDate.Year - yearFirstDate.Year) * 12) + yearLastDate.Month - yearFirstDate.Month;
                 
-                for (int j = 0; j <= monthsDiff; j++)
+                for (int monthCount = 0; monthCount <= monthsDiff; monthCount++)
                 {
-                    DateTime monthFirst = lastDate;
-                    if (i==0 && j==0)
+                    DateTime monthFirstDate = firstDate;
+                    if (yearCount == 0 && monthCount == 0)
                     {
-                        monthFirst = lastDate;
+                        monthFirstDate = firstDate;
                     }
-                    if (j >= 0)
+                    if (monthCount >= 0)
                     {
-                        monthFirst = new DateTime(yearFirstDate.Year, yearFirstDate.Month, 1);
-                        monthFirst = monthFirst.AddMonths(j);
+                        monthFirstDate = new DateTime(yearFirstDate.Year, yearFirstDate.Month, 1);
+                        monthFirstDate = monthFirstDate.AddMonths(monthCount);
                     }
 
-                    DateTime monthLast = new DateTime(monthFirst.Year, monthFirst.Month, DateTime.DaysInMonth(monthFirst.Year, monthFirst.Month));
+                    DateTime monthLastDate = new DateTime(monthFirstDate.Year, monthFirstDate.Month, DateTime.DaysInMonth(monthFirstDate.Year, monthFirstDate.Month));
                     
                     //NAV CALCULATIONS
                     int count = 0;
-                    while (dataList.TimeSeries.ContainsKey(FormatToString(monthFirst)) == false && count <= 2)
+                    while (dataList.TimeSeries.ContainsKey(FormatToString(monthFirstDate)) == false && count <= 2)
                     {
-                        monthFirst = monthFirst.AddDays(1);
+                        monthFirstDate = monthFirstDate.AddDays(1);
                         count++;
                     }
 
                     count = 0;
-                    while (dataList.TimeSeries.ContainsKey(FormatToString(monthLast)) == false && count <= 2)
+                    while (dataList.TimeSeries.ContainsKey(FormatToString(monthLastDate)) == false && count <= 2)
                     {
-                        monthLast = monthLast.AddDays(-1);
+                        monthLastDate = monthLastDate.AddDays(-1);
                         count++;
                     }
 
-                    if (dataList.TimeSeries.ContainsKey(FormatToString(monthFirst)) && dataList.TimeSeries.ContainsKey(FormatToString(monthLast)))
+                    if (dataList.TimeSeries.ContainsKey(FormatToString(monthFirstDate)) && dataList.TimeSeries.ContainsKey(FormatToString(monthLastDate)))
                     {
-                        var presentNav = (dataList.TimeSeries[FormatToString(monthLast)].Stats[Constants.Nav]);
-                        var previousNav = (dataList.TimeSeries[FormatToString(monthFirst)].Stats[Constants.Nav]);
+                        var presentNav = (dataList.TimeSeries[FormatToString(monthLastDate)].Stats[Constants.Nav]);
+                        var previousNav = (dataList.TimeSeries[FormatToString(monthFirstDate)].Stats[Constants.Nav]);
                         var returnNav = ((presentNav - previousNav) / previousNav) * 100;
 
                         if (Double.IsInfinity(returnNav))
                         {
                             returnNav = 0.00;
                         }
-                        stat.YearStats.Add(monthFirst.ToString("MMM"),returnNav);
+                        stat.YearStats.Add(monthFirstDate.ToString("MMM"),returnNav);
                     }
                     else
                     {
-                        stat.YearStats.Add(monthFirst.ToString("MMM"), 0.000);
+                        stat.YearStats.Add(monthFirstDate.ToString("MMM"), 0.000);
                     }
                 }
                 list.TimeSeries.Add(yearFirstDate.ToString(), stat);
@@ -950,23 +899,23 @@ namespace MarketView.Engine
                 {
                     switch (item)
                     {
-                        case "1 Day Returns":
+                        case "OneDayReturns":
                             dataList = OneDayReturn(dataList);
                             break;
 
-                        case "1 Week Returns":
+                        case "OneWeekReturns":
                             dataList = OneWeekReturn(dataList);
                             break;
 
-                        case "1 Month Returns":
+                        case "OneMonthReturns":
                             dataList = OneMonthReturn(dataList);
                             break;
 
-                        case "1 Quarter Returns":
+                        case "OneQuarterReturns":
                             dataList = OneQuarterReturn(dataList);
                             break;
 
-                        case "1 Year Returns":
+                        case "OneYearReturns":
                             dataList = OneYearReturn(dataList);
                             break;
 
@@ -1003,7 +952,7 @@ namespace MarketView.Engine
                             break;
 
                         case "HistoricalCumulativeReturns":
-                            dataList = HistCumReturn(dataList);
+                            dataList = HistoricalCumulativeReturn(dataList);
                             break;
 
                         case "AnnualReturns":

@@ -12,7 +12,7 @@ namespace MarketView.Commons
 
         public const string Nav = "nav";
 
-        public static string[] statsSupported = { "1 Day Returns", "1 Week Returns", "1 Month Returns",  "1 Quarter Returns", "1 Year Returns", "WeekToDate", "MonthToDate", "YearToDate", "QuarterToDate", "LastWeekReturns", "LastMonthReturns", "LastYearReturns", "LastQuarterReturns" , "HistoricalCumulativeReturns", "AnnualReturns","AnnualizedReturn", "AnnualizedReturnLast1Year", "AnnualizedReturnLast3Year", "AnnualizedReturnLast5Year", "LastThreeMonthsReturns" };
+        public static string[] statsSupported = { "OneDayReturns", "OneWeekReturns", "OneMonthReturns", "OneQuarterReturns", "OneYearReturns", "WeekToDate", "MonthToDate", "YearToDate", "QuarterToDate", "LastWeekReturns", "LastMonthReturns", "LastYearReturns", "LastQuarterReturns" , "HistoricalCumulativeReturns", "AnnualReturns","AnnualizedReturn", "AnnualizedReturnLast1Year", "AnnualizedReturnLast3Year", "AnnualizedReturnLast5Year", "LastThreeMonthsReturns" };
 
     }
 }

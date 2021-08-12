@@ -63,7 +63,6 @@ namespace MarketView.Services.Controllers
             {
                 Logging.LogException(TypeName, ex.Message, ex);
                 ApplicationException appEx = new ApplicationException("System error occurred.");
-                //throw appEx;
                 throw ex;
             }
             return result;
@@ -83,7 +82,6 @@ namespace MarketView.Services.Controllers
             {
                 Logging.LogException(TypeName, ex.Message, ex);
                 ApplicationException appEx = new ApplicationException("System error occurred.");
-                //throw appEx;
                 throw ex;
             }
             return result;
